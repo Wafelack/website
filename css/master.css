@@ -8,12 +8,18 @@
   color: #f5f5f5;
   font-size: 18px;
 }
+
+/* sections */
+
 .namesec {
   background-color: #20272c;
 }
 .descsec {
   background-color: #15212a;
 }
+
+/* utils */
+
 .standard {
   height: 100vh;
 }
@@ -29,6 +35,16 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
+}
+
+.big {
+  height: 8em;
+}
+.medium {
+  height: 5em;
+}
+.small {
+  height: 3em;
 }
 
 /* divs */
@@ -66,6 +82,9 @@
   margin-right: 0.5em;
   width: 2em;
 }
-.block {
-  height: 8em;
+.who {
+  font-family: "Montserrat";
+  font-weight: 800;
+  color: #f5f5f5;
+  font-size: 50px;
 }

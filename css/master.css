@@ -11,25 +11,37 @@ section {
   height: 100vh;
 }
 .namesec {
-  background-color: #042037;
-  height: 97vh;
+  background-color: #20272c;
+}
+.desc {
+  background-color: #123652;
+}
+.standard {
+  height: 100vh;
+}
+.flexed {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.desc {
-  background-color: #123652;
-  height: 103vh;
-}
-.standard-section {
-  height: 100vh;
-}
 
 /* divs */
 .name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wafe {
   font-family: "Montserrat";
   font-weight: 800;
   color: #f5f5f5;
   font-size: 100px;
+}
+.developer {
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  color: #f5f5f5;
+  font-size: 50px;
 }

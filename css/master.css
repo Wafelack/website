@@ -46,6 +46,9 @@
 .small {
   height: 3em;
 }
+.xsmall {
+  height: 1em;
+}
 
 /* divs */
 
@@ -69,11 +72,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #15212a;
   padding: 0.5em 1em;
   margin: 0 0.5em;
   transition-duration: 0.2s;
   border-radius: 0.2em;
+}
+.twitter {
+  background-color: #1da1f2;
+}
+.github {
+  background-color: #333333;
+}
+.discord {
+  background-color: #4e5d94;
 }
 .link:hover {
   background-color: #58666f;
@@ -87,4 +98,14 @@
   font-weight: 800;
   color: #f5f5f5;
   font-size: 50px;
+}
+.desctext {
+  font-family: "Merriweather";
+  font-weight: 400;
+  color: #f5f5f5;
+  font-size: 20px;
+  text-align: center;
+}
+.desc {
+  width: 20em;
 }

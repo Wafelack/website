@@ -17,6 +17,9 @@
 .descsec {
   background-color: #15212a;
 }
+.wngsec {
+  background-color: #20272c;
+}
 
 /* utils */
 
@@ -49,7 +52,9 @@
 .xsmall {
   height: 1em;
 }
-
+.space {
+  width: 5em;
+}
 /* divs */
 
 .wafe {
@@ -106,7 +111,7 @@
   font-size: 50px;
 }
 .desctext {
-  font-family: "Merriweather";
+  font-family: "Montserrat";
   font-weight: 400;
   color: #f5f5f5;
   font-size: 20px;
@@ -114,4 +119,45 @@
 }
 .desc {
   width: 20em;
+}
+.wngtitle {
+  font-family: "Montserrat";
+  font-weight: 800;
+  color: #f5f5f5;
+  font-size: 50px;
+}
+.desccontent {
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: #f5f5f5;
+  font-size: 20px;
+  text-align: center;
+  width: 25em;
+}
+.wngdescription {
+  width: 25em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.terminal {
+  display: flex;
+}
+.wngimage {
+  display: none;
+}
+.wngimg {
+  width: 30em;
+  height: 17em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.2s;
+}
+.wngimg:hover .terminal {
+  display: none;
+}
+.wngimg:hover .wngimage {
+  display: flex;
 }

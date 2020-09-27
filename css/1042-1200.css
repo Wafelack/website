@@ -1,34 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@200;300;400;500;600;700;800;900;1000&display=swap");
-
-@import url("1042-1200.css");
-@import url("578-1042.css");
-@import url("478-578.css");
-@import url("320-478.css");
-
-* {
-  font-family: "Josefin Sans";
-  font-weight: 400;
-  color: #f5f5f5;
-  font-size: 18px;
-}
-
-/* sections */
-
-.namesec {
-  background-color: #20272c;
-}
-.descsec {
-  background-color: #15212a;
-}
-.wngsec {
-  background-color: #20272c;
-}
-
-/* utils */
-@media (min-width: 1200px) {
+@media (min-width: 1042px) and (max-width: 1200px) {
   .standard {
     height: 100vh;
   }
@@ -151,7 +121,7 @@
     display: none;
   }
   .wngimg {
-    width: 45em;
+    width: 30em;
     height: 17em;
     display: flex;
     align-items: center;
@@ -200,10 +170,5 @@
   .labsrustimg {
     width: 25em;
     margin-left: 5em;
-  }
-}
-@media (max-width: 320px) {
-  * {
-    display: none;
   }
 }

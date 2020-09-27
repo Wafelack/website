@@ -1,34 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@200;300;400;500;600;700;800;900;1000&display=swap");
-
-@import url("1042-1200.css");
-@import url("578-1042.css");
-@import url("478-578.css");
-@import url("320-478.css");
-
-* {
-  font-family: "Josefin Sans";
-  font-weight: 400;
-  color: #f5f5f5;
-  font-size: 18px;
-}
-
-/* sections */
-
-.namesec {
-  background-color: #20272c;
-}
-.descsec {
-  background-color: #15212a;
-}
-.wngsec {
-  background-color: #20272c;
-}
-
-/* utils */
-@media (min-width: 1200px) {
+@media (max-width: 578px) and (min-width: 478px) {
   .standard {
     height: 100vh;
   }
@@ -59,7 +29,7 @@
     height: 1em;
   }
   .space {
-    width: 5em;
+    width: 0em;
   }
   /* divs */
 
@@ -75,6 +45,9 @@
     color: #f5f5f5;
     font-size: 40px;
   }
+  .wafebut {
+    flex-direction: column;
+  }
   .link {
     font-family: "Montserrat";
     font-weight: 500;
@@ -84,7 +57,7 @@
     justify-content: center;
     align-items: center;
     padding: 0.5em 1em;
-    margin: 0 0.5em;
+    margin: 0.5em 0;
     transition-duration: 0.2s;
     border-radius: 0.2em;
   }
@@ -142,27 +115,17 @@
     margin-bottom: 1em;
   }
   .wngdescription {
-    width: 25em;
+    width: 20em;
+    text-align: center;
   }
   .terminal {
-    display: flex;
+    display: none;
   }
   .wngimage {
     display: none;
   }
   .wngimg {
-    width: 45em;
-    height: 17em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition-duration: 0.2s;
-  }
-  .wngimg:hover .terminal {
     display: none;
-  }
-  .wngimg:hover .wngimage {
-    display: flex;
   }
   .wngbuttons {
     margin-top: 1em;
@@ -184,7 +147,6 @@
   .wngbutton:hover {
     font-size: 24px;
   }
-
   /* LABS RUST*/
   .labsrustsec {
     background-color: #15212a;
@@ -198,12 +160,6 @@
     width: 25em;
   }
   .labsrustimg {
-    width: 25em;
-    margin-left: 5em;
-  }
-}
-@media (max-width: 320px) {
-  * {
     display: none;
   }
 }

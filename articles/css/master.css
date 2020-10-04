@@ -2,11 +2,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@200;300;400;500;600;700;800;900;1000&display=swap");
-* {
+.main {
   font-family: "Josefin Sans";
   font-weight: 400;
   color: #f5f5f5;
   font-size: 18px;
   scroll-behavior: smooth;
   background-color: #20272c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.title {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 2em;
+}
+.articlelink {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 1em;
+}
+.articlelink:hover {
+  text-decoration: underline;
 }

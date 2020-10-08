@@ -1,4 +1,4 @@
-@media (min-width: 1042px) and (max-width: 1200px) {
+@media (min-width: 1042px) and (max-width: 1331px) {
   .standard {
     height: 100vh;
   }
@@ -117,9 +117,6 @@
   .terminal {
     display: flex;
   }
-  .wngimage {
-    display: none;
-  }
   .wngimg {
     width: 30em;
     height: 17em;
@@ -127,12 +124,6 @@
     align-items: center;
     justify-content: center;
     transition-duration: 0.2s;
-  }
-  .wngimg:hover .terminal {
-    display: none;
-  }
-  .wngimg:hover .wngimage {
-    display: flex;
   }
   .wngbuttons {
     margin-top: 1em;

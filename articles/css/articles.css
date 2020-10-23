@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
+body {
+  font-family: "Segoe Ui";
+  font-weight: 400;
+  color: #f5f5f5;
+  font-size: 18px;
+  scroll-behavior: smooth;
+  background-color: #20272c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+articletitle {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.articlewrapper {
+  text-align: justify;
+  box-sizing: border-box;
+  line-height: 1.6;
+  width: 45em;
+  font-size: 19px;
+}
+
+a {
+  color: #83c886;
+  text-decoration: underline dotted;
+  transition-duration: 0.3s;
+  margin-bottom: 1em;
+}
+a:hover {
+  color: #b6fbb9;
+}
+p {
+  box-sizing: border-box;
+  margin-bottom: 1em;
+}
+img {
+  box-sizing: border-box;
+  margin-bottom: 1em;
+}
+code {
+  margin-bottom: 1em;
+  font-size: 16px;
+}
+.last {
+  margin-bottom: 5em;
+}

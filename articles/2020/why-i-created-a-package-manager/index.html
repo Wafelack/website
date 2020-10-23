@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why I created a package manager for C lang</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/base.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/articles.css">
+</head>
+<body>
+    <articletitle>Why I created a package manager for C lang</articletitle>
+    <article class="articlewrapper">
+        
+
+        <p>A few months ago, I was wondering why we hoard Makefiles and why it is so painful to use an external library in a C project.</p>
+
+        <p>So I had this idea : Creating a project manager & build tool for the C programming language.</p>
+
+        <p>I started to write a piece of code in C and it was not functionning properly (Cause I'm one of the worst C developers in this world) but i continued 'till we cannot run that thing.</p>
+
+        <p>At the same time, I was learning Rust ; so, I decided to try to rewrite the whole project in that language.</p>
+
+        <p>After a few weeks of rewriting, I had a correct product. The 08/10/2020, Wanager 1.0 was released. It had only a few features : project creation and reinitializing, project build and run and header creation. </p>
+
+        <p>At that point, someone called Lockeer told me that it will be cool if we can manage libraries. </p>
+    
+        <p>So I wrote a simple system to install libraries hosted on my vps, with a submission system based on mailing. It was working, but limited because of vps bandwidth and the complexity of submiting by email.</p>
+    
+        <p>So SuperFola poped up :</p>
+        <img src="https://user-images.githubusercontent.com/61330081/96449113-aa418a80-1214-11eb-97e8-32c7afd86ff8.png" alt="fola">
+    
+        <p>At first time, I decided, as he advised me, to use the github api that produces a tar archive of the repo.<br>
+            I stucked on that for weeks because the command I was running was producing a corrupted file. </p>
+    
+        <p>After raging on that problem, I realised that I'll gain some portability and time with cloning directly with a git command. </p>
+    
+        <p>It worked good, so, everything is fine !</p>
+    
+        <p>But Il_totore opened an issue :</p>
+        <img src="https://user-images.githubusercontent.com/61330081/96449715-8df21d80-1215-11eb-9a22-588c77ce9870.png" alt="iltotore">
+    
+        <p>So I made python support for build scripts with minimal version of 3.5.x and allowed path specification.</p>
+
+        <p>After that, on his advice, I made kind of Python API to have nice build scripts and it produced <a href="https://gist.github.com/Wafelack/7ab5ae29e01ac1227a36bda835c7904f">that</a> :</p>
+
+        <p><a href="https://github.com/wmanage/wng">https://github.com/wmanage/wng</a></p>
+
+        <p>It is still WIP, there are loads of features that I can add to it but I will be more very happy to answer your questions or help you use it.</p>
+
+        <p class="last">Thanks for reading and have a nice day.</p>
+
+
+    </article>
+
+</body>
+</html>

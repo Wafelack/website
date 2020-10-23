@@ -46,6 +46,15 @@ gap {
   height: 1em;
 }
 
+a {
+  color: #83c886;
+  text-decoration: underline dotted;
+  transition-duration: 0.3s;
+}
+a:hover {
+  color: #b6fbb9;
+}
+
 .article {
   border-radius: 1em;
   border: 0.05em solid #f5f5f5;
@@ -54,5 +63,21 @@ gap {
   margin-bottom: 1em;
 }
 .articletitle {
-  font-size: 30px;
+  font-size: 25px;
+  margin-left: 1em;
+}
+.articletitlediv {
+  width: 45em;
+  margin-bottom: 0.5em;
+}
+.datediv {
+  width: 45em;
+  color: #999999;
+  margin-left: 3em;
+  margin-bottom: 1em;
+}
+.resumediv {
+  margin-bottom: 0.5em;
+  margin-left: 0;
+  width: 40em;
 }

@@ -34,6 +34,10 @@ gap {
   height: 40vh;
 }
 
+.link:hover {
+  text-decoration: none;
+}
+
 .namesec {
   background-color: #20272c;
 }

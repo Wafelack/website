@@ -42,10 +42,9 @@ img {
   box-sizing: border-box;
   margin-bottom: 1em;
 }
-code {
-  margin-bottom: 1em;
-  font-size: 16px;
-}
 .last {
   margin-bottom: 5em;
+}
+hr {
+  border: 1px solid #f5f5f5;
 }

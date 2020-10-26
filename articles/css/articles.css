@@ -19,10 +19,10 @@ articletitle {
 }
 .articlewrapper {
   text-align: justify;
+  font-family: "Segoe Ui";
   box-sizing: border-box;
   line-height: 1.6;
   width: 45em;
-  font-size: 19px;
 }
 
 a {
@@ -30,6 +30,26 @@ a {
   text-decoration: underline dotted;
   transition-duration: 0.3s;
   margin-bottom: 1em;
+  font-size: 19px;
+}
+h1 {
+  font-size: 30px;
+  margin-bottom: 1em;
+}
+h2 {
+  font-size: 25px;
+  margin-bottom: 1em;
+}
+h3 {
+  font-size: 21px;
+  margin-bottom: 1em;
+}
+pre {
+  font-size: 16px;
+  margin-bottom: 1em;
+}
+code {
+  font-size: 16px;
 }
 a:hover {
   color: #b6fbb9;
@@ -37,6 +57,8 @@ a:hover {
 p {
   box-sizing: border-box;
   margin-bottom: 1em;
+  margin-top: 1em;
+  font-size: 19px;
 }
 img {
   box-sizing: border-box;

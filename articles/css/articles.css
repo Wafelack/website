@@ -70,3 +70,6 @@ img {
 hr {
   border: 1px solid #f5f5f5;
 }
+article {
+  margin-bottom: 5em;
+}

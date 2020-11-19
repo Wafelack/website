@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Marsdown: un parser markdown vers html</title>
+
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/base.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="../../css/articles.css">
+
+</head>
+
+<body>
+
+		<articletitle>Vlugger, a plugin manager for Vim
+
+		</articletitle>
+
+    <article class="articlewrapper">
+
+
+			<p>I've been using Vim with pathogen for a while now, and I noticed that it is very long and very annoying to write, each time i wanted to install a plugin</p>
+<pre>
+git clone https://github.com/&lsaquo;user&rsaquo;/&lsaquo;repo&rsaquo; ~/.vim/bundle/&lsaquo;repo&rsaquo;
+cd ~
+git submodule add https://github.com/&lsaquo;user&rsaquo;/&lsaquo;repo&rsaquo; ~/.vim/bundle/&lsaquo;repo</pre><p></p>
+
+I could use another plugin manager like Vundle, but I wanted to have directly the repo cloned to make it easily updatable and to not to be dependent to an external system.
+
+</p><p>
+So, I decided to make that simple program to install and search easily for plugins.
+
+It is written in Rust, and basically makes a call to github api to find a repo and uses git clone to download plugin, like you would do in command line.
+</p><p>
+I plan to add an update command, that would execute <code>git pull</code> in every plugin folder and to open for other git remotes.</p>
+<p>Repository link, if you want to leave a star or just download it : <a href="https://github.com/Wafelack/Vlugger">https://github.com/Wafelack/Vlugger</a><br>
+</article>
+    <p>Made with <a href="https://github.com/Wafelack/marsdown">marsdown</a>
+
+</body>
+
+</html>

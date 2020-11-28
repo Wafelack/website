@@ -18,6 +18,10 @@
 
 /* sections */
 
+.badge {
+  margin: 0.25em;
+}
+
 a {
   color: aquamarine;
 }

@@ -17,32 +17,6 @@
 }
 
 /* sections */
-
-.cursor {
-  animation-name: blink;
-  animation-duration: 1.2s;
-  animation-iteration-count: infinite;
-}
-.wafe {
-  margin-left: 1em;
-}
-.cursor {
-  margin: 0;
-}
-@keyframes blink {
-  0%, 100% {
-    visibility: visible;
-  }
-  1%, 50% {
-    visibility: hidden;
-  }
-  
-}
-
-.badge {
-  margin: 0.25em;
-}
-
 a {
   color: aquamarine;
 }

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Comment contourner la désactivation de l'invite de commande</title>
+
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/base.min.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="../../css/articles.css">
+
+</head>
+
+<body>
+
+  <articletitle>Comment contourner la désactivation de l'invite de commande</articletitle>
+
+  <article class="articlewrapper">
+
+    <p>N'importe qui ayant utilisé Windows sur un reseau """bien configuré""" (notez les guillemets) et ayant essayé de
+      bidouiller un peu a vu ca :</p>
+
+    <img
+      src="https://preview.redd.it/vekvbakcya861.png?width=652&format=png&auto=webp&s=dcafced68d753415d940b2767c9ac563b7193943"
+      alt="disabled command prompt">
+
+
+    <p>Cela m'est arrivé il y a peu de temps, et si vous ne l'avez jamais vu, sachez que c'est incroyablement
+      <b>frustrant</b>.
+    </p>
+
+    <p>Donc je me suis demandé comment je pouvais contourner ça ...</p>
+
+    <p>J'ai trouvé comment arriver à mes fins completement par hasard: je me baladais dans le gestionnaire des taches de
+      Windows, et j'ai vu que des fichiers de batch (i.e. les fichiers de commande MS-DOS) étaient lancés avec
+      l'utilisateur courant.</p>
+
+    <p>Je me suis dit que ça marcherait tout aussi bien pour mes .bat aussi ; j'ai donc creé le programme le plus simple
+      du
+      monde: une invite prenant l'entrée utilisateur dans une variable et lancant le contenu de cette variable comme une
+      commande :</p>
+
+    <pre>
+  :loop
+  set /p cmd="$ "
+  %cmd%
+  goto :loop
+</pre>
+
+    <p>4 lignes. Et ça fonctionne merveilleusement bien.</p>
+
+    <p>Que ce soit clair, ce n'est en aucun cas la faute du sysadmin du réseau qui a mal fait son travail, il ne peut
+      clairement pas empêcher windows de lancer des fichiers de commandes avec l'utilisateur courant.</p>
+
+    <p>Vous pouvez trouver le petit code que j'ai fait <a href="https://github.com/Wafelack/Bypass-Shell">sur github</a>
+      et lâcher
+      une
+      star si vous appréciez.</p>
+
+    <p>Merci de m'avoir lu, et bonne journée.</p>
+
+  </article>
+  <p>Made with <a href="https://github.com/Wafelack/marsdown">marsdown</a>
+
+</body>
+
+</html>

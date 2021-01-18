@@ -3,6 +3,20 @@ document.addEventListener("DOMContentLoaded", async function() {
     let wlvm_stars = await getStarCount('wlvm');
     let nixt_stars = await getStarCount('nixt');
 
+    let date = new Date().getFullYear();
+
+    let since = date - 2020;
+
+    if (since == 1) {
+        document.getElementById('description').innerHTML = `<span id="description" class="desctext">Hi ! I'm Wafelack, a young developer currently in high school.
+    I'm passionate about technology and especially programming.
+    <br>I code since about ${since} year now and I am a big Vim and Rustlang fan.</span>`
+    } else {
+        document.getElementById('description').innerHTML = `<span id="description" class="desctext">Hi ! I'm Wafelack, a young developer currently in high school.
+    I'm passionate about technology and especially programming.
+    <br>I code since about ${since} years now and I am a big Vim and Rustlang fan.</span>`
+    }
+
 
 document.getElementById('wng_stars').innerHTML = `<a id="wng_stars" class="wngbutton" href="https://github.com/wafelack/wng"><img class="logo" src="assets/github.svg" />
     ⭐ ${wng_stars}</a>`;

@@ -56,7 +56,9 @@ gap {
 .contactsec {
   background-color: #15212a;
 }
-
+.text-align {
+  text-align: center;
+}
 /* utils */
 @media (min-width: 1331px) {
   .standard {

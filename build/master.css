@@ -1,0 +1,16 @@
+@media (max-width: 299px) {
+  * {
+    display: none;
+  }
+}
+@media (max-height: 599px) {
+  * {
+    display: none;
+  }
+}
+.sec-wrapper {
+  height: 100vh;
+  background-color: #19212c;
+}
+
+/*# sourceMappingURL=master.css.map */

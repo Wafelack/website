@@ -16,4 +16,8 @@ $min-height: 599px;
 .sec-wrapper {
     height: 100vh;
     background-color: #19212c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

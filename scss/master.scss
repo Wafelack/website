@@ -1,6 +1,8 @@
 $min-width: 299px;
 $min-height: 599px;
 
+@use "first";
+
 @media (max-width: $min-width) {
     * {
         display: none;

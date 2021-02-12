@@ -1,0 +1,19 @@
+$min-width: 299px;
+$min-height: 599px;
+
+@media (max-width: $min-width) {
+    * {
+        display: none;
+    }
+}
+
+@media (max-height: $min-height) {
+    * {
+        display: none;
+    }
+}
+
+.sec-wrapper {
+    height: 100vh;
+    background-color: #19212c;
+}

@@ -3,6 +3,7 @@ $min-height: 599px;
 
 @use "first";
 @use "second";
+@use "third";
 
 @media (max-width: $min-width) {
     * {

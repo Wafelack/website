@@ -41,6 +41,15 @@
   margin-right: 0.5rem;
 }
 
+.description {
+  font-family: "Montserrat", monospace;
+  font-weight: 500;
+  font-size: 1.1rem;
+  width: 85vw;
+  text-align: center;
+  color: #fefcfb;
+}
+
 .project {
   width: 80vw;
   height: 23vh;

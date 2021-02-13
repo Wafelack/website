@@ -3,4 +3,4 @@ new fullpage('#fullpage', {
     scrollHorizontally: true,
 })
 
-fullage_api.setAllowScroling(false);
+fullpage_api.setAllowScroling = false;

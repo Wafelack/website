@@ -5,7 +5,7 @@ $default-font: "Montserrat", monospace;
 .button {
     font-family:$default-font;
     font-weight: 500;
-    color: #f5f5f5;
+    color: #fefcfb;
     font-size: 1.5rem;
     display: flex;
     justify-content: center;
@@ -27,7 +27,7 @@ $default-font: "Montserrat", monospace;
 }
 
 .github-color:hover {
-    box-shadow: 0px 0px 10px rgba(19, 24, 29, 0.5);
+    box-shadow: 0px 0px 10px rgba($color: #353B3F, $alpha: 0.5);
 }
 
 .twitter-color {

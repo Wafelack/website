@@ -127,6 +127,11 @@
   box-shadow: 0px 0px 10px rgba(18, 130, 162, 0.5);
 }
 
+.magenta {
+  border-color: #e95678;
+  box-shadow: 0px 0px 10px rgba(233, 86, 120, 0.5);
+}
+
 .dark {
   border-color: #001f54;
   box-shadow: 0px 0px 10px rgba(51, 79, 135, 0.5);
@@ -134,6 +139,13 @@
 
 .bg-light {
   background-color: #1282a2;
+  box-shadow: 0px 0px 5px rgba(18, 130, 162, 0.5);
+  color: #fefcfb;
+}
+
+.bg-gradient {
+  background: #1282a2;
+  background: linear-gradient(130deg, #1282a2 20%, #e95678 84%);
   color: #fefcfb;
 }
 

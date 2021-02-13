@@ -92,7 +92,7 @@
 
 .dark {
     border-color: rgba($color: #001f54, $alpha: 1.0);
-    box-shadow: 0px 0px 10px rgba($color: #223f76, $alpha: 0.5);
+    box-shadow: 0px 0px 10px rgba($color: #334f87, $alpha: 0.5);
 }
 
 .bg-light {
@@ -102,6 +102,7 @@
 
 .bg-dark {
     background-color: #001f54;
+    box-shadow: 0px 0px 5px rgba($color: #334f87, $alpha: 0.5);
     color: #fefcfb;
 }
 

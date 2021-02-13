@@ -25,7 +25,7 @@
 }
 
 .github-color:hover {
-  box-shadow: 0px 0px 10px rgba(19, 24, 29, 0.5);
+  box-shadow: 0px 0px 10px rgba(53, 59, 63, 0.5);
 }
 
 .twitter-color {
@@ -129,7 +129,7 @@
 
 .dark {
   border-color: #001f54;
-  box-shadow: 0px 0px 10px rgba(34, 63, 118, 0.5);
+  box-shadow: 0px 0px 10px rgba(51, 79, 135, 0.5);
 }
 
 .bg-light {
@@ -139,6 +139,7 @@
 
 .bg-dark {
   background-color: #001f54;
+  box-shadow: 0px 0px 5px rgba(51, 79, 135, 0.5);
   color: #fefcfb;
 }
 

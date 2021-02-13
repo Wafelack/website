@@ -143,9 +143,9 @@
   color: #fefcfb;
 }
 
-.bg-gradient {
-  background: #1282a2;
-  background: linear-gradient(130deg, #1282a2 20%, #e95678 84%);
+.bg-green {
+  background-color: #275000;
+  box-shadow: 0px 0px 5px rgba(39, 80, 0, 0.5);
   color: #fefcfb;
 }
 

@@ -6,13 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/base.min.css" rel="stylesheet" />
     <link href="build/master.css" rel="stylesheet" />
+
+    <!-- Fullpage.js -->
+    <link rel="stylesheet" href="deps/fullpage.css">
+    <script type="text/javascript" src="deps/fullpage.js"></script>
+
     <title>Wafelack - Home</title>
 </head>
 <body>
-    <main>
-        <section class="sec-wrapper">
-            <span class="first-title">Wafelack</span>
-            <div class="first-buttons">
+    <main id="fullpage">
+        <section class="section sec-wrapper a-color">
+            
+            <div class="center">
+                <span class="title">Wafelack</span>
                 <a class="button github-color" href="https://github.com/wafelack"><img src="assets/logos/github.svg" class="icon" alt="">
                     GitHub
                 </a>
@@ -25,6 +31,13 @@
                 </a>
             </div>
         </section>
+        <section class="section sec-wrapper b-color">
+            <div class="center">
+                <span class="title">Projects</span>
+            </div>
+        </section>
     </main>
+
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>

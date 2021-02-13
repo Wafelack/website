@@ -2,6 +2,7 @@ $min-width: 299px;
 $min-height: 599px;
 
 @use "first";
+@use "second";
 
 @media (max-width: $min-width) {
     * {
@@ -15,11 +16,34 @@ $min-height: 599px;
     }
 }
 
+.a-color {
+    background-color: #20272c;
+}
+
+.b-color {
+    background-color: #15212a;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .sec-wrapper {
     height: 100vh;
-    background-color: #20272c;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.title {
+    text-align: center;
+    color: #f5f5f5;
+    font-weight: 600;
+    font-family: first.$default-font;
+    margin-bottom: 2rem;
+    font-size: 3rem;
 }

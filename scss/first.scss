@@ -24,18 +24,15 @@ $default-font: "Montserrat", monospace;
 
 .github-color {
     background-color: #13181D;
+    &:hover {
+        box-shadow: 0px 0px 10px rgba($color: #353B3F, $alpha: 0.5);
+    }
 }
-
-.github-color:hover {
-    box-shadow: 0px 0px 10px rgba($color: #353B3F, $alpha: 0.5);
-}
-
 .twitter-color {
     background-color: #1DA1F2;
-}
-
-.twitter-color:hover {
-    box-shadow: 0px 0px 10px rgba(29, 161, 242, 0.5);
+    &:hover {
+        box-shadow: 0px 0px 10px rgba(29, 161, 242, 0.5);
+    }
 }
 
 .icon {

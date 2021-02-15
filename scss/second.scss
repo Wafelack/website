@@ -1,10 +1,23 @@
 @use "first";
 
-.description {
-    font-family: first.$default-font;
-    font-weight: 500;
-    font-size: 1.1rem;
-    width: 85vw;
-    text-align: center;
-    color: #fefcfb;
+@media (max-width: 499px) {
+    .description {
+        font-family: first.$default-font;
+        font-weight: 500;
+        font-size: 1.1rem;
+        width: 85vw;
+        text-align: center;
+        color: #fefcfb;
+    }
+}
+
+@media (min-width: 500px) {
+    .description {
+        font-family: first.$default-font;
+        font-weight: 500;
+        font-size: 1.1rem;
+        width: 300px;
+        text-align: center;
+        color: #fefcfb;
+    }
 }

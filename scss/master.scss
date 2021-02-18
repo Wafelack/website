@@ -48,7 +48,7 @@ $min-height: 599px;
     justify-content: center;
 }
 
-@media (max-width: 799px) {
+@media (max-width: 399px) {
     .title {
         text-align: center;
         color: #f5f5f5;
@@ -59,14 +59,14 @@ $min-height: 599px;
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 400px) {
     .title {
         text-align: center;
         color: #f5f5f5;
         font-weight: 600;
         font-family: first.$default-font;
         margin-bottom: 2rem;
-        font-size: 3.5rem;
+        font-size: 5rem;
     }
 }
 

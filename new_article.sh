@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 set -euo pipefail
 
 if [[ "$#" -ne 1 ]]
@@ -32,7 +32,7 @@ cat >> $FILENAME << EOF
 
 		<!-- Content ends here -->
 
-		<a href="../../../">Go To Main Page</a>
+		<a href="../../../../">Go To Main Page</a>
 	</body>
 	<footer><hr>Copyright (C) 2021 Wafelack<br>This website and all its content are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">CC BY-NC-SA 4.0</a> license.</footer>
 

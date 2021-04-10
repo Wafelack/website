@@ -1,3 +1,5 @@
+@import url("montserrat.css");
+
 body {
 	display: flex;
 	flex-direction: column;

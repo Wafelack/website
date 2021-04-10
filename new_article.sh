@@ -13,7 +13,7 @@ FILENAME=$(echo "$FILENAME" | awk '{print tolower($0)}')
 DPATH=$(date +"articles/%Y/%m/%d")
 mkdir "$DPATH" -p
 
-FILENAME="${DPATH}/${FILENAME}"
+FILENAME="${DPATH}/${FILENAME}.html"
 
 
 cat >> $FILENAME << EOF

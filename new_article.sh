@@ -1,6 +1,8 @@
 #!/bin/sh
 set -euo pipefail
 
+# When editing this file, don't forget to update articles/2020/04/12/how_is_this_blog_made.html with the new content.
+
 if [[ "$#" -ne 1 ]]
 then
 	echo "Usage: $0 <title>" >&2
@@ -21,11 +23,14 @@ cat >> $FILENAME << EOF
 <html>
 	<head>
 		<meta charset="utf8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name"keywords" content="Programming, Wafelack, Rust, Free Software">
 		<title>${1}</title>
-		<link rel="stylesheet" type="text/css" href="../../../../css/articles.css">
+		<link rel="stylesheet" type="text/css" href="../../../../css/master.css">
 	</head>
 	<body>
 		<h1>${1}</h1>
+		<hr>
 
 		<!-- Content starts here -->
 
@@ -40,3 +45,4 @@ cat >> $FILENAME << EOF
 EOF
 
 echo "Sucessfully created article in ${FILENAME}."
+$EDITOR ${FILENAME}

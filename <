@@ -4,10 +4,6 @@
 		<title>Wafelack's Personal Site</title>
 		<link rel="stylesheet" type="text/css" href="css/master.css">
 		<link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name"description" content="Wafelack's blog">
-		<meta name"keywords" content="Programming, Wafelack, Rust, Free Software">
-		<meta charset="utf8">
 		<link rel="icon" href="assets/icon.png">
 	</head>
 
@@ -15,10 +11,9 @@
 		<h1>Wafelack's Blog</h1>
 		<br>
 		<p>Welcome to my blog ; I'll share here things related to my projects, Rust, free software or whatever interesting thing.</p>
-		<p><a href="https://github.com/wafelack/">GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:wafelack@protonmail.com">Mail</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://keys.gnupg.net/pks/lookup?search=0xf3a273ee46e8f632">PGP Key</a></p>
 		<hr>
 		<ul>
-			<li><a href="articles/2021/04/12/how_is_this_blog_made.html">How is this blog made ?</a></li> 
+			<li><a href="articles/2021/04/10/how_is_this_blog_made.html">How is this blog made ?</a></li> 
 		</ul>
 
 	</body>

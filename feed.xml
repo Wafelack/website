@@ -1,28 +1,24 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 	<channel>
 		<title>Wafelack's Blog</title>
 		<link>https://wafelack.fr</link>
-		<description>Wafelack's Blog, the title explains itself</description>
-		<language>en-us</language>
-
-		<image>
-			<title>Wafelack's profile picture</title>
-			<url>https://wafelack.fr</url>
-			<link>https://github.com/Wafelack/wafelack.github.io/blob/master/assets/icon.png</link>
-
-			<width>150px</width><height>150px</height>
-			<description>Wafelack's profile picture</description>
-		</image>
-
+		<description>Wafelack's Blog</description>
+		<language>en_US</language>
 		<item>
 			<title>How is this blog made ?</title>
-			<link>https://github.com/wafelack/articles/2021/04/12/how_is_this_blog_made.html</link>
-			<description>This post describe how this blog is made</description>
+			<link>https://wafelack.fr/articles/2021/04/12/how_is_this_blog_made.html</link>
+			<description>This post describe how this blog is made.</description>
 
-			<author>wafelack@protonmail.com</author>
-			<category>Misc</category>
-			<pubDate>Monday 12 April 2021</pubDate>
+			<author>Wafelack</author>
+			<pubDate>Mon, 12 Apr 2021</pubDate>
+		</item>
+		<item>
+			<title>Why Vim is one of the best text editors</title>
+			<link>https://wafelack.fr/articles/2021/04/16/why_vim_is_one_of_the_best_editors.html</link>
+			<description>This post explain in a few points why Vim is one of the best text editors.</description>
+			<author>Wafelack</author>
+			<pubDate>Fri, 16 Apr 2021</pubDate>
 		</item>
 	</channel>
 </rss>

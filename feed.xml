@@ -10,7 +10,7 @@
 			<title>How is this blog made ?</title>
 			<link>https://wafelack.fr/articles/2021/04/12/how_is_this_blog_made.html</link>
 			<description>This post describe how this blog is made.</description>
-
+			<guid isPermaLink="true">https://wafelack.fr/articles/2021/04/12/how_is_this_blog_made.html</guid>
 			<author>wafelack@protonmail.com (Wafelack)</author>
 			<pubDate>Mon, 12 Apr 2021 19:38:25 +0200</pubDate>
 		</item>
@@ -18,6 +18,7 @@
 			<title>Why Vim is one of the best text editors</title>
 			<link>https://wafelack.fr/articles/2021/04/16/why_vim_is_one_of_the_best_editors.html</link>
 			<description>This post explain in a few points why Vim is one of the best text editors.</description>
+			<guid isPermaLink="true">https://wafelack.fr/articles/2021/04/16/why_vim_is_one_of_the_best_editors.html</guid>
 			<author>wafelack@protonmail.com (Wafelack)</author>
 			<pubDate>Fri, 16 Apr 2021 17:07:18 +0200</pubDate>
 		</item>

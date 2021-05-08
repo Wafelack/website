@@ -1,7 +1,5 @@
-#!/bin/sh
+#!/usr/bin/env bash
 set -euo pipefail
-
-# When editing this file, don't forget to update articles/2020/04/12/how_is_this_blog_made.html with the new content.
 
 if [[ "$#" -ne 1 ]]
 then

@@ -1,0 +1,8 @@
+* How is this blog made
+/2021-04-12 - Edited 2021-07-17/
+
+This blog is written in Org, on the magnificent VIM text editor.
+
+It is compiled by [[https://github.com/Wafelack/wafelack.github.io/blob/master/make_article.rb][a Ruby script]], which is a pseudo SSG that is just translating Org to HTML with a link to a 10-lines-long CSS file.
+
+Obviously, this site does not use any Javascript code and is available freely (as in freedom) at [[https://github.com/wafelack/wafelack.github.io]].

@@ -1,5 +1,5 @@
 * How I do my computing
-/2021-05-09 - Edited 2021-08-17/
+/2021-05-09 - Edited 2021-08-25/
 
 I'll talk here about the tools I use for computing. Nobody asked for this but I'd like to put this somewhere.
 
@@ -9,7 +9,7 @@ I'll talk here about the tools I use for computing. Nobody asked for this but I'
 
 I use the [[https://www.keychron.com/products/keychron-k6-wireless-mechanical-keyboard?variant=31441087037529][Keychron K6]] keyboard as my daily driver, with blue hot-swappable switches.
 
-** Laptop
+*** Laptop
 
 I use the DELL Inspiron 3593 laptop as my daily driver.
 
@@ -21,12 +21,12 @@ Product info:
 
 ** Software
 
-+ Operating System: GNU/Linux ([[Arch GNU/Linux][https://www.archlinux.org/]])
++ Operating System: GNU/Linux ([[https://nixos.org/][NixOS]])
 + Window Manager: [[https://dwm.suckless.org][DWM]]
   - Launcher: [[https://tools.suckless.org][dmenu]]
-  - Terminal Emulator: [[https://st.suckless.org][st]]
+  - Terminal Emulator: [[http://software.schmorp.de/pkg/rxvt-unicode.html][URxvt]]
 + Text Editor: [[https://vim.org][The magnificent text editor, VIM]]
 + Interactive Shell: [[http://gnu.org/software/bash][bash]]
 + Programming Languages: [[https://rust-lang.org][Rust]], C and [[https://schemers.org][Scheme]].
 
-All my configuration files for the software listed above can be found at [[https://github.com/wafelack/dotfiles][wafelack/dotfiles]].
+All my configuration files for the software listed above can be found at [[https://git.gnous.eu/wafelack/dotfiles][wafelack/dotfiles]].

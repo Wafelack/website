@@ -3,6 +3,6 @@
 
 This blog is written in Org, on the magnificent VIM text editor.
 
-It is compiled by [[https://github.com/Wafelack/wafelack.github.io/blob/master/make_article.rb][a Ruby script]], which is a pseudo SSG that is just translating Org to HTML with a link to a 10-lines-long CSS file.
+It is compiled by [[https://git.gnous.eu/wafelack/website/src/branch/master/make_article.rb][a Ruby script]], which is a pseudo SSG that is just translating Org to HTML with a link to a 10-lines-long CSS file.
 
-Obviously, this site does not use any Javascript code and is available freely (as in freedom) at [[https://github.com/wafelack/wafelack.github.io]].
+Obviously, this site does not use any Javascript code and is available freely (as in freedom) at [[https://git.gnous.eu/wafelack/website][git.gnous.eu/wafelack/website]].

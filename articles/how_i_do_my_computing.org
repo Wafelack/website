@@ -21,12 +21,12 @@ Product info:
 
 ** Software
 
-+ Operating System: GNU/Linux ([[https://nixos.org/][NixOS]])
++ Operating System: GNU/Linux ([[https://voidlinux.org/][Void GNU/Linux]])
 + Window Manager: [[https://dwm.suckless.org][DWM]]
   - Launcher: [[https://tools.suckless.org][dmenu]]
-  - Terminal Emulator: [[http://software.schmorp.de/pkg/rxvt-unicode.html][URxvt]]
+  - Terminal Emulator: [[http://st.suckless.org/][st]]
 + Text Editor: [[https://vim.org][The magnificent text editor, VIM]]
 + Interactive Shell: [[http://gnu.org/software/bash][bash]]
 + Programming Languages: [[https://rust-lang.org][Rust]], C and [[https://schemers.org][Scheme]].
 
-All my configuration files for the software listed above can be found at [[https://git.gnous.eu/wafelack/dotfiles][wafelack/dotfiles]].
+All my configuration files for the software listed above can be found at [[https://github.com/wafelack/dotfiles][wafelack/dotfiles]].

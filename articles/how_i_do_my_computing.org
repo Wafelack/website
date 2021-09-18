@@ -1,5 +1,7 @@
 * How I do my computing
-/2021-05-09 - Edited 2021-08-25/
+/2021-05-09 - Edited 2021-09-14/
+
+/[[how_i_do_my_computing.org][Raw article]]/
 
 I'll talk here about the tools I use for computing. Nobody asked for this but I'd like to put this somewhere.
 

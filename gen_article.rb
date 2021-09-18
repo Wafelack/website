@@ -3,14 +3,14 @@ require 'org-ruby'
 require 'fileutils'
 
 def make_article_path(title)
-  "articles/#{title.gsub(' ', '_').downcase}"
+  "#{title.gsub(' ', '_').downcase}"
 end
 
 def compile_article(title)
   fname = make_article_path(title)
-  raw = File.open("#{fname}.org", "r") { |f| f.read }
+  raw = File.open("articles/#{fname}.org", "r") { |f| f.read }
   body = Orgmode::Parser.new(raw).to_html
-  File.open("#{fname}.html", "w") { |f|
+  File.open("articles/#{fname}.html", "w") { |f|
     f.write "<!DOCTYPE html>
 <html>
   <head>
@@ -42,8 +42,8 @@ if ARGV[0] == "compile"
   compile_article aname 
 elsif ARGV[0] == "new"
   fname = make_article_path(aname)
-  File.open("#{fname}.org", "w") { |f| f.write "* #{aname}\n/#{Time.now.strftime("%Y-%m-%d")}/\n" }
-  puts "Source file is located at `#{fname}.org.`"
+  File.open("articles/#{fname}.org", "w") { |f| f.write "* #{aname}\n/#{Time.now.strftime("%Y-%m-%d")}/\n\n/[[#{fname}.org][Raw article]]/\n" }
+  puts "Source file is located at `articles/#{fname}.org.`"
 else
   STDERR.puts "Invalid action: #{ARGV[0]}.\nAvailable actions: compile,new."
 end

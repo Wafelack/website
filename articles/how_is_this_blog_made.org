@@ -1,5 +1,7 @@
 * How is this blog made
-/2021-04-12 - Edited 2021-07-17/
+/2021-04-12 - Edited 2021-07-17
+
+/[[how_is_this_blog_made.org][Raw article]]/
 
 This blog is written in Org, on the magnificent VIM text editor.
 

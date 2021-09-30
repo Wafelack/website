@@ -8,3 +8,27 @@ body {
 	font-family: sans-serif;
 	padding: 0 10px;
 }
+.short {
+    /* border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, .3); */
+    padding: 5px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+.short-date {
+    font-size: 15px;
+}
+.short-title {
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.short-date {
+    margin-left: 1em;
+}
+.short-content {
+    font-size: 16px;
+}

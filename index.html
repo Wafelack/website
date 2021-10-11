@@ -32,6 +32,26 @@
         </ul>
         <hr />
         <h2>Short items</h2>
+        <!-- BEGIN SHORTS SECTION -->
+        <div class='short'>
+            <span class='short-title'>Musl libc is simply unsuitable for daily usage.</span>
+            <br />
+            <i class='short-date'>11 October 2021
+            </i>
+            <p class='short-content'>
+            Since a vast majority of programs are written using a specific libc allowing large deviations from the standards, it follows that those programs 
+            will be incompatible with other libcs.
+            <br />
+            This is why linking with another libc isn't just like replacing a shared object and <i>voilà!</i>
+            <br />
+            I use a <i>massive</i> amount of Rust in my projects, and it is simply impossible to work with this language when crates break every other time. Even
+            widely used programs, such as GNU screen, break just at startup. 
+            <br />
+            This is why I'm going to pack my Void GNU/Linux Musl installation in, and just switch back to glibc, and it is such a pity.
+            <br /><br />
+            <i>This text might have been written right after a software crash due to a libc incompatibility.</i>
+            </p>
+        </div>
     </body>
     <footer><hr>Copyright (C) 2021 Wafelack<br>All this website's content is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1">CC BY-SA 4.0</a> license.</footer>
 </html>

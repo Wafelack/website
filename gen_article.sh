@@ -15,7 +15,7 @@ cat >> "articles/${NAME}.html" << EOF
         <meta charset=utf8 />
         <meta name=viewport content="width=device-width, initial-scale=1.0" />
         <meta name=keywords content="Programming, Wafelack, Rust, Free Software" />
-        <title>$1</title>
+        <title>~wafelack - $1</title>
         <link rel=icon href=../assets/icon.png />
         <link rel=stylesheet type=text/css href=../master.css />
     </head>
